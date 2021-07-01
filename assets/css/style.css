@@ -1,0 +1,45 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: lightslategray;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(83, 197, 235);
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    color: rgb(83, 197, 235);
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: underline;
+}
