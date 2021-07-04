@@ -66,3 +66,48 @@ header nav ul li a {
     margin: 0 auto;
 }
 
+.section-title {
+    font-size: 55px;
+    color: rgb(83, 197, 235);
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid rgb(80, 136, 155);
+}
+
+.primary-border {
+    border-color: rgb(80, 136, 155);
+}
+
+section {
+    padding: 60px;
+}
+/* End of Hero Styling */
+
+/* Start of "Work" Section styling */
+.work {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.project {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background:rgb(27, 87, 105);
+    color: rgb(80, 136, 155);
+    overflow: auto;
+}
+
+.project img {
+    width: 35%;
+    float: left;
+}
+
+.project-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
