@@ -88,15 +88,17 @@ header nav ul li a {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .section-title {
     font-size: 55px;
     color: rgb(83, 197, 235);
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid rgb(80, 136, 155);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -109,12 +111,7 @@ section {
 /* End of Hero Styling */
 
 /* Start of "Work" Section styling */
-.work {
-    text-align: center;
-}
-
 .projects {
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -163,4 +160,8 @@ section {
     color:rgb(83, 197, 235);
     text-decoration: underline rgb(27, 87, 105);
     padding: 10px;
+}
+
+.flex-row {
+    display: flex;
 }
