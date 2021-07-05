@@ -109,6 +109,13 @@ section {
     width: 400px;
     height: 350px;
     object-fit: cover;
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+}
+
+.project img:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
 }
 
 .project-bio {
