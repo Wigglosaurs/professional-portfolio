@@ -120,5 +120,16 @@ section {
     padding: 20px;
     flex: 50%;
 }
+/* End of "Work" Section styling */
 
+/* Start of "Contact" Section styling */
+.contact-me {
+    text-align: center;
+}
 
+.contact-me a {
+    font-size: 20px;
+    color:rgb(83, 197, 235);
+    text-decoration: underline rgb(27, 87, 105);
+    padding: 10px;
+}
